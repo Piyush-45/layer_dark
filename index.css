@@ -389,7 +389,7 @@ span {
 
 .footer-own-your-skin p {
     font-size: 1.8rem;
-    font-family: 'Montserrat', sans-serif;
+    display: block;
     margin-left: 10rem;
 }
 
@@ -491,17 +491,26 @@ span {
     }
     
     .dark-collection-desc p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         max-width: 100%;
     
     }
     
-    
-    .left img {
-        height: 65rem;
+    .dark-collection-desc img {
+        height: 50rem;
     }
     .flex .right{
         padding: 2rem;
+    }
+
+    /* =========== wanderlust banner ========== */
+    .wanderlust-main{
+        background-position:top 25% right 25%;
+    }
+
+    /* ============ footer banner ============ */
+    .footer{
+        background-position: top 35% right 0%;
     }
    
 }
@@ -618,7 +627,7 @@ span {
     .text-area a {
         display:none;
     }
-    .left img {
+    .dark-collection-desc img {
         height: 30rem;
     }
 
@@ -631,6 +640,20 @@ span {
         max-width: 100%;
     
     }
+
+     /* =========== wanderlust banner ========== */
+     .wanderlust-main{
+        background-position:top 100% right 5%;
+    }
+
+     /* ============ footer banner ============ */
+    .footer{
+        background-position: top 100% left 100%;
+    }
+    .footer-own-your-skin p {
+        display: none;
+    }
+  
 }
 
 @media screen and (max-width:500px) {
@@ -733,7 +756,7 @@ span {
     font-weight: 700;
 }
 
-.flex img{
+.dark-collection-desc img{
     width: 100vw;
     height: auto;
 
@@ -773,4 +796,23 @@ span {
     cursor: pointer;
 }
 
+
+
+ /* =========== wanderlust banner ========== */
+ .wanderlust-main{
+    background-position:top 10% left 85%;
 }
+
+  /* ============ footer banner ============ */
+  .footer{
+    background-position: top 55% left 55%;
+}
+}
+
+
+
+/* create a simple ui, which has one input field that accepts only numbers */
+
+/* if the user types negative numbers, show "enter a positive value" */
+/* if the user types and even number, show next 3 even numbers" */
+/* if the user types an odd numbers, show the next 3 odd */
